@@ -1,0 +1,39 @@
+    .App {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        bottom: 0;
+        z-index: 1;
+        background-color: #e9e9eb;
+        height: 100vh;
+        width: 95vw;
+        margin: 30px;
+        overflow: scroll;
+        box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+    }
+    
+    .app_form {
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        background-color: white;
+        width: 90vw;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+        margin-left: 25px;
+    }
+    
+    .app_formControl {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    
+    .app_input {
+        flex: 1;
+    }
+    
+    .app_iconButton {
+        flex: 0;
+    }
